@@ -1,0 +1,38 @@
+name: Scrape practice sites
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python main.py
+
+      - name: Save scraper outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-results
+          path: |
+            output/
+            logs/scraper.log
+          if-no-files-found: warn
+          retention-days: 30
