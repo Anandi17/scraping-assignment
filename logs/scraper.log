@@ -1,0 +1,72 @@
+2026-10-06 13:10:53,399 INFO scrapers.books_scraper: Books page 1: https://books.toscrape.com/
+2026-10-06 13:10:54,883 WARNING urllib3.connectionpool: Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:10:56,497 WARNING urllib3.connectionpool: Retrying (Retry(total=1, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:10:59,110 WARNING urllib3.connectionpool: Retrying (Retry(total=0, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:10:59,740 ERROR scrapers.books_scraper: Books request failed at https://books.toscrape.com/: HTTPSConnectionPool(host='books.toscrape.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+2026-10-06 13:10:59,741 INFO scrapers.quotes_scraper: Quotes page 1: https://quotes.toscrape.com/
+2026-10-06 13:11:00,422 WARNING urllib3.connectionpool: Retrying (Retry(total=2, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:11:02,038 WARNING urllib3.connectionpool: Retrying (Retry(total=1, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:11:04,631 WARNING urllib3.connectionpool: Retrying (Retry(total=0, connect=3, read=2, redirect=None, status=3)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)'))': /
+2026-10-06 13:11:05,226 ERROR scrapers.quotes_scraper: Quotes request failed at https://quotes.toscrape.com/: HTTPSConnectionPool(host='quotes.toscrape.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))
+2026-10-06 13:11:05,231 INFO pipeline: Finished: 0 valid unique records; 0 duplicates removed
+2026-10-06 15:00:56,292 INFO scrapers.books_scraper: Books page 1: https://books.toscrape.com/
+2026-10-06 15:00:59,159 INFO scrapers.books_scraper: Books page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-10-06 15:01:00,262 INFO scrapers.books_scraper: Books page 3: https://books.toscrape.com/catalogue/page-3.html
+2026-10-06 15:01:01,365 INFO scrapers.books_scraper: Books page 4: https://books.toscrape.com/catalogue/page-4.html
+2026-10-06 15:01:02,481 INFO scrapers.books_scraper: Books page 5: https://books.toscrape.com/catalogue/page-5.html
+2026-10-06 15:01:03,594 INFO scrapers.books_scraper: Books page 6: https://books.toscrape.com/catalogue/page-6.html
+2026-10-06 15:01:04,704 INFO scrapers.books_scraper: Books page 7: https://books.toscrape.com/catalogue/page-7.html
+2026-10-06 15:01:05,828 INFO scrapers.books_scraper: Books page 8: https://books.toscrape.com/catalogue/page-8.html
+2026-10-06 15:01:06,935 INFO scrapers.books_scraper: Books page 9: https://books.toscrape.com/catalogue/page-9.html
+2026-10-06 15:01:07,757 INFO scrapers.books_scraper: Books page 10: https://books.toscrape.com/catalogue/page-10.html
+2026-10-06 15:01:08,859 INFO scrapers.books_scraper: Books page 11: https://books.toscrape.com/catalogue/page-11.html
+2026-10-06 15:01:09,690 INFO scrapers.books_scraper: Books page 12: https://books.toscrape.com/catalogue/page-12.html
+2026-10-06 15:01:10,520 INFO scrapers.books_scraper: Books page 13: https://books.toscrape.com/catalogue/page-13.html
+2026-10-06 15:01:11,620 INFO scrapers.books_scraper: Books page 14: https://books.toscrape.com/catalogue/page-14.html
+2026-10-06 15:01:12,440 INFO scrapers.books_scraper: Books page 15: https://books.toscrape.com/catalogue/page-15.html
+2026-10-06 15:01:13,267 INFO scrapers.books_scraper: Books page 16: https://books.toscrape.com/catalogue/page-16.html
+2026-10-06 15:01:14,115 INFO scrapers.books_scraper: Books page 17: https://books.toscrape.com/catalogue/page-17.html
+2026-10-06 15:01:14,941 INFO scrapers.books_scraper: Books page 18: https://books.toscrape.com/catalogue/page-18.html
+2026-10-06 15:01:15,802 INFO scrapers.books_scraper: Books page 19: https://books.toscrape.com/catalogue/page-19.html
+2026-10-06 15:01:16,619 INFO scrapers.books_scraper: Books page 20: https://books.toscrape.com/catalogue/page-20.html
+2026-10-06 15:01:17,446 INFO scrapers.books_scraper: Books page 21: https://books.toscrape.com/catalogue/page-21.html
+2026-10-06 15:01:18,285 INFO scrapers.books_scraper: Books page 22: https://books.toscrape.com/catalogue/page-22.html
+2026-10-06 15:01:19,385 INFO scrapers.books_scraper: Books page 23: https://books.toscrape.com/catalogue/page-23.html
+2026-10-06 15:01:20,494 INFO scrapers.books_scraper: Books page 24: https://books.toscrape.com/catalogue/page-24.html
+2026-10-06 15:01:21,599 INFO scrapers.books_scraper: Books page 25: https://books.toscrape.com/catalogue/page-25.html
+2026-10-06 15:01:22,704 INFO scrapers.books_scraper: Books page 26: https://books.toscrape.com/catalogue/page-26.html
+2026-10-06 15:01:23,540 INFO scrapers.books_scraper: Books page 27: https://books.toscrape.com/catalogue/page-27.html
+2026-10-06 15:01:24,649 INFO scrapers.books_scraper: Books page 28: https://books.toscrape.com/catalogue/page-28.html
+2026-10-06 15:01:25,483 INFO scrapers.books_scraper: Books page 29: https://books.toscrape.com/catalogue/page-29.html
+2026-10-06 15:01:26,317 INFO scrapers.books_scraper: Books page 30: https://books.toscrape.com/catalogue/page-30.html
+2026-10-06 15:01:27,425 INFO scrapers.books_scraper: Books page 31: https://books.toscrape.com/catalogue/page-31.html
+2026-10-06 15:01:28,293 INFO scrapers.books_scraper: Books page 32: https://books.toscrape.com/catalogue/page-32.html
+2026-10-06 15:01:29,416 INFO scrapers.books_scraper: Books page 33: https://books.toscrape.com/catalogue/page-33.html
+2026-10-06 15:01:30,518 INFO scrapers.books_scraper: Books page 34: https://books.toscrape.com/catalogue/page-34.html
+2026-10-06 15:01:31,342 INFO scrapers.books_scraper: Books page 35: https://books.toscrape.com/catalogue/page-35.html
+2026-10-06 15:01:32,166 INFO scrapers.books_scraper: Books page 36: https://books.toscrape.com/catalogue/page-36.html
+2026-10-06 15:01:33,321 INFO scrapers.books_scraper: Books page 37: https://books.toscrape.com/catalogue/page-37.html
+2026-10-06 15:01:34,157 INFO scrapers.books_scraper: Books page 38: https://books.toscrape.com/catalogue/page-38.html
+2026-10-06 15:01:34,982 INFO scrapers.books_scraper: Books page 39: https://books.toscrape.com/catalogue/page-39.html
+2026-10-06 15:01:36,100 INFO scrapers.books_scraper: Books page 40: https://books.toscrape.com/catalogue/page-40.html
+2026-10-06 15:01:36,920 INFO scrapers.books_scraper: Books page 41: https://books.toscrape.com/catalogue/page-41.html
+2026-10-06 15:01:38,031 INFO scrapers.books_scraper: Books page 42: https://books.toscrape.com/catalogue/page-42.html
+2026-10-06 15:01:39,148 INFO scrapers.books_scraper: Books page 43: https://books.toscrape.com/catalogue/page-43.html
+2026-10-06 15:01:39,971 INFO scrapers.books_scraper: Books page 44: https://books.toscrape.com/catalogue/page-44.html
+2026-10-06 15:01:40,815 INFO scrapers.books_scraper: Books page 45: https://books.toscrape.com/catalogue/page-45.html
+2026-10-06 15:01:41,652 INFO scrapers.books_scraper: Books page 46: https://books.toscrape.com/catalogue/page-46.html
+2026-10-06 15:01:42,467 INFO scrapers.books_scraper: Books page 47: https://books.toscrape.com/catalogue/page-47.html
+2026-10-06 15:01:43,292 INFO scrapers.books_scraper: Books page 48: https://books.toscrape.com/catalogue/page-48.html
+2026-10-06 15:01:44,395 INFO scrapers.books_scraper: Books page 49: https://books.toscrape.com/catalogue/page-49.html
+2026-10-06 15:01:45,214 INFO scrapers.books_scraper: Books page 50: https://books.toscrape.com/catalogue/page-50.html
+2026-10-06 15:01:46,027 INFO scrapers.quotes_scraper: Quotes page 1: https://quotes.toscrape.com/
+2026-10-06 15:01:47,212 INFO scrapers.quotes_scraper: Quotes page 2: https://quotes.toscrape.com/page/2/
+2026-10-06 15:01:48,295 INFO scrapers.quotes_scraper: Quotes page 3: https://quotes.toscrape.com/page/3/
+2026-10-06 15:01:49,096 INFO scrapers.quotes_scraper: Quotes page 4: https://quotes.toscrape.com/page/4/
+2026-10-06 15:01:49,897 INFO scrapers.quotes_scraper: Quotes page 5: https://quotes.toscrape.com/page/5/
+2026-10-06 15:01:50,695 INFO scrapers.quotes_scraper: Quotes page 6: https://quotes.toscrape.com/page/6/
+2026-10-06 15:01:51,495 INFO scrapers.quotes_scraper: Quotes page 7: https://quotes.toscrape.com/page/7/
+2026-10-06 15:01:52,296 INFO scrapers.quotes_scraper: Quotes page 8: https://quotes.toscrape.com/page/8/
+2026-10-06 15:01:53,094 INFO scrapers.quotes_scraper: Quotes page 9: https://quotes.toscrape.com/page/9/
+2026-10-06 15:01:53,892 INFO scrapers.quotes_scraper: Quotes page 10: https://quotes.toscrape.com/page/10/
+2026-10-06 15:01:54,741 INFO pipeline: Finished: 1099 valid unique records; 1 duplicates removed
